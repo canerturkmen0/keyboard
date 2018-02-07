@@ -1,0 +1,33 @@
+body{
+  text-align: center;
+}
+.row-2 , .row-3, .row-4, .row-5{
+  margin-top: 15px;
+}
+.keyboard{
+  margin-top: 50px;
+}
+#invisible{
+  color: transparent;
+}
+.textBox{
+  margin-top: 200px;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  padding: 5px;
+}
+.key{
+  border: 1px solid black;
+  background-color: #c1d9ff;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  padding: 5px;
+  transition: all .1s ease;
+}
+.keyPressedStyle{
+  border: 1px solid black;
+  background-color: #89b7ff;
+}
+.upperCase kbd{
+  text-transform: uppercase;
+}
